@@ -24,12 +24,12 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
-    BOT_NAME: process.env.BOT_NAME || '𝛨𝛯𝑅𝛭𝛪𝑇',
+    BOT_NAME: process.env.BOT_NAME || '𝐹𝛥𝐺𝑈-𝛭𝐷',
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
-    BOT_INFO: process.env.BOT_INFO || '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/6oRG106.jpeg',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮' : process.env.AUDIO_DATA,
+    BOT_INFO: process.env.BOT_INFO || '𝐹𝛥𝐺𝑈-𝛭𝐷;𝐹𝛥𝐷𝛨𝛪𝐿;917012556562;https://i.imgur.com/Qui6BQ8.jpeg',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝐹𝛥𝐺𝑈-𝛭𝐷;𝐹𝛥𝐷𝛨𝛪𝐿;https://i.imgur.com/Qui6BQ8.jpeg' : process.env.AUDIO_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝐹𝛥𝐺𝑈-𝛭𝐷;🥵' : process.env.AUDIO_DATA,
     ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE), 
     WARN: process.env.WARN || '4',
     HEROKU: {
@@ -42,6 +42,6 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-       SUDO: process.env.SUDO || '972528277755,0',
+       SUDO: process.env.SUDO || '917012556562',
        DEBUG: DEBUG
 };

@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (hermit-md)",
+  "name": "FAGU-MD",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/Fagu12/FAGU-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -15,7 +15,7 @@
     "SUDO": {
       "description": "admin",
       "required": true,
-      "value": "null"
+      "value": "917012556562"
     },
     "MODE": {
       "description": "mode",
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝐹𝛥𝐺𝑈-𝛭𝐷;𝐹𝛥𝐷𝛨𝛪𝐿;917012556562;https://i.imgur.com/Qui6BQ8.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "𝐹𝛥𝐺𝑈-𝛭𝐷;🥵"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝐹𝛥𝐺𝑈-𝛭𝐷;𝐹𝛥𝐷𝛨𝛪𝐿;https://i.imgur.com/Qui6BQ8.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",

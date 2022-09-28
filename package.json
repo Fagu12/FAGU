@@ -1,12 +1,12 @@
 {
-   "name": "Hermit-md",
+   "name": "FAGU-MD",
    "version": "4.3.1",
-   "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+   "description": "FAGU-MD - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
    "main": "index.js",
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
    },
-   "author": "A-d-i-t-h-y-a-n",
+   "author": "FADHIL",
    "license": "ISC",
    "dependencies": {
       "@adiwajshing/baileys": "git+https://github.com/A-d-i-t-h-y-a-n/Baileys.git",
