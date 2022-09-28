@@ -6,7 +6,7 @@
 
 
 
-[![FAGU-MD](https://i.imgur.com/MOMxqS3.jpeg)height= "55" width="200"](https://baileys-md-qr.herokuapp.com/md) height= "55" width="200"/>
+[![FAGU-MD](https://repl.it/badge/github/quiec/whatsasena)](https://baileys-md-qr.herokuapp.com/md)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fagu12/FAGU-MD)
 
