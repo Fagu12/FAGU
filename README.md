@@ -34,7 +34,7 @@ FAGU-MD Multi Device is a automated whatsapp bot created by <a href="https://git
 
 [![FAGU-MD](https://repl.it/badge/github/quiec/whatsasena)](https://baileys-md-qr.herokuapp.com/md)
 
- * [`FAGU QR SCANNER`](https://baileys-md-qr.herokuapp.com/md)
+ * [`FAGU QR SCANNER`](ys-md-qr.herokuapp.com)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fagu12/FAGU-MD)
 
