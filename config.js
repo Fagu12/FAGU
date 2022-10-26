@@ -31,7 +31,8 @@ module.exports = {
     AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝐹𝛥𝐺𝑈-𝛭𝐷;𝐹𝛥𝐷𝛨𝛪𝐿;https://i.imgur.com/Qui6BQ8.jpeg' : process.env.AUDIO_DATA,
     STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝐹𝛥𝐺𝑈-𝛭𝐷;🥵' : process.env.AUDIO_DATA,
     ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE), 
-    WARN: process.env.WARN || '4',
+    SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
+    WARN: process.env.WARN || '1',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY || '',
